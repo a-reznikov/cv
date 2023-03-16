@@ -1,0 +1,37 @@
+
+.nav {
+  @include media-tablet {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: $color-background;
+  }
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  @include media-tablet {
+    align-items: center;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+  }
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 1.5;
+  font-weight: 700;
+  font-variant-caps: small-caps;
+  text-decoration: none;
+  color: $color-light;
+  @extend %transition;
+}
+
+.nav-link:hover {
+  color: $color-hover-dark;
+}
