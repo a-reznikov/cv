@@ -427,6 +427,15 @@ body {
   text-decoration: underline;
 }
 
+.icons {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+  opacity: 0.8;
+}
+
 .header {
   background-color: #2B2C2B;
 }
@@ -511,7 +520,7 @@ body {
 .rss-link {
   width: 121px;
   height: 45px;
-  background-image: url(../assets/img/rss-white.svg);
+  background-image: url("../assets/img/icons/rss-white.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -552,6 +561,60 @@ body {
 
 .nav-link:hover {
   color: #929191;
+}
+
+.section-list {
+  list-style: none;
+  padding-left: 15px;
+}
+
+.list_items {
+  display: flex;
+  align-items: center;
+}
+
+.contacts_phone {
+  background-image: url("../assets/img/icons/phone.svg");
+}
+
+.contacts_e-mail {
+  background-image: url("../assets/img/icons/mail.svg");
+}
+
+.contacts_github {
+  background-image: url("../assets/img/icons/github.svg");
+}
+
+.contacts_linkedin {
+  background-image: url("../assets/img/icons/linkedin.svg");
+}
+
+.contacts_discord {
+  background-image: url("../assets/img/icons/discord.svg");
+}
+
+.skills_html {
+  background-image: url("../assets/img/icons/html.svg");
+}
+
+.skills_css {
+  background-image: url("../assets/img/icons/css.svg");
+}
+
+.skills_js {
+  background-image: url("../assets/img/icons/javascript.svg");
+}
+
+.skills_git {
+  background-image: url("../assets/img/icons/git.svg");
+}
+
+.skills_vsc {
+  background-image: url("../assets/img/icons/vsc.svg");
+}
+
+.skills_python {
+  background-image: url("../assets/img/icons/python.svg");
 }
 
 /*# sourceMappingURL=style.css.map */
