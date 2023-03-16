@@ -502,14 +502,22 @@ body {
   justify-content: space-between;
 }
 
-.footer-container {
+.footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  width: 100%;
   margin: 0 auto;
   padding: 20px;
   color: #FFFFFF;
   background-color: #2B2C2B;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .git-footer {
@@ -517,12 +525,22 @@ body {
   color: #FFFFFF;
 }
 
-.rss-link {
-  width: 121px;
-  height: 45px;
-  background-image: url("../assets/img/icons/rss-white.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
+.footer-link {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+.contacts_github_footer {
+  width: 40px;
+  height: 40px;
+  background-image: url("../assets/img/icons/github_with_title.svg");
+}
+
+.column-layout-2 {
+  display: flex;
+  width: 100%;
+  padding-bottom: 40px;
 }
 
 @media (max-width: 768px) {
@@ -593,6 +611,26 @@ body {
   background-image: url("../assets/img/icons/discord.svg");
 }
 
+.education {
+  font-weight: 600;
+}
+
+.section-languages {
+  order: 0;
+  flex-basis: 30%;
+  padding: 0 20px;
+}
+
+.section-expirience {
+  order: 1;
+  flex-basis: 70%;
+  padding: 0 20px;
+}
+
+.container_projects {
+  padding-left: 15px;
+}
+
 .skills_html {
   background-image: url("../assets/img/icons/html.svg");
 }
@@ -607,6 +645,18 @@ body {
 
 .skills_git {
   background-image: url("../assets/img/icons/git.svg");
+}
+
+.skills_figma {
+  background-image: url("../assets/img/icons/figma.svg");
+}
+
+.skills_webpack {
+  background-image: url("../assets/img/icons/webpack.svg");
+}
+
+.skills_codewars {
+  background-image: url("../assets/img/icons/codewars.svg");
 }
 
 .skills_vsc {

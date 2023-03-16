@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="src/assets/img/icons/favicon.ico">
+    <link rel="icon" href="src/assets/img/icons/favicon.png">
     <title>CV Aleksandr Reznikov</title>
     <link rel="stylesheet" href="src/sass/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,7 +21,6 @@
             <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
             <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
             <li class="nav-item"><a href="#languauges" class="nav-link">Languauges</a></li>
-            <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
           </ul>
         </nav>
       </div>
@@ -89,6 +88,18 @@
               <span class="title_git">Git, GitHub</span>
             </li>
             <li class="list_items skills">
+              <div class="icons skills_figma"></div> 
+              <span class="title_figma">Figma</span>
+            </li>
+            <li class="list_items skills">
+              <div class="icons skills_webpack"></div> 
+              <span class="title_webpack">Webpack</span>
+            </li>
+            <li class="list_items skills">
+              <div class="icons skills_codewars"></div> 
+              <span class="title_codewars">CodeWars</span>
+            </li>
+            <li class="list_items skills">
               <div class="icons skills_vsc"></div> 
               <span class="title_vsc">Visual Studio Code</span>
             </li>
@@ -111,70 +122,77 @@
             <li class="section-item education">Courses:</li>
             <li>
               <ul class="section-list">
-                <li class="section-item">2023 RS School: JS / FRONT-END. STAGE 0 <a href="https://app.rs.school/certificate/rea276c6" target="_blank" class="web-link">certificate</a></li>
+                <li class="section-item">
+                  <span class="place">RS School:</span>
+                  <ul class="section-list">
+                    <li class="section-item">
+                      <span class="courses">2023 JavaScript/Front-end 2023Q1 (in progess)</span>
+                    </li>
+                    <li class="section-item">
+                      <span class="courses">2023 RS School: JS / FRONT-END. STAGE 0 </span>
+                      <a href="https://app.rs.school/certificate/rea276c6" target="_blank" class="web-link">certificate</a>
+                      <a href="src/assets/img/certificates/rsschool_stage-0.jpg" target="_blank" class="web-link">certificate</a>
+                    </li>
+                  </ul>
+                </li>
                 <li class="section-item courses">EPAM:</li>
                 <li>
                   <ul class="section-list">
-                    <li class="section-item">2022 Version Control with Git</li>
-                    <li class="section-item">2022 Computer Science Basics</li>
-                  </ul>
-                </li>
-                <li class="section-item courses">Stepik:</li>
-                <li>
-                  <ul class="section-list">
-                    <li class="section-item">Bioinformatics institute:</li>
-                    <li>
-                      <ul class="section-list">
-                        <li class="section-item">2021 Python programming <a href="https://stepik.org/cert/1034363" target="_blank" class="web-link">certificate</a></li>
-                        <li class="section-item">2022 Python: basics and applications <a href="https://stepik.org/cert/1500134" target="_blank" class="web-link">certificate</a></li>
-                      </ul>
+                    <li class="section-item">
+                      <span class="courses">2022 Version Control with Git</span>
                     </li>
-                    <li class="section-item">Web development for beginners: HTML and CSS (in progress 66%)</li>
+                    <li class="section-item">
+                      <span class="courses">2022 Computer Science Basics</span>
+                    </li>
                   </ul>
                 </li>
-                <li class="section-item courses">GeekBrains:</li>
+                <li class="section-item courses">Bioinformatics institute:</li>
                 <li>
                   <ul class="section-list">
-                    <li class="section-item">2022 C#. Fast start.</li>
+                    <li class="section-item">
+                      <span class="courses">2022 Python: basics and applications
+                        <a href="https://stepik.org/cert/1500134" target="_blank" class="web-link">certificate</a>
+                      </span>
+                    </li>
+                    <li class="section-item">
+                      <span class="courses">2021 Python programming
+                        <a href="https://stepik.org/cert/1034363" target="_blank" class="web-link">certificate</a>
+                      </span>
+                    </li>
                   </ul>
                 </li>
               </ul>
             </li>
           </ul>
         </section>
-        <div class="section-left double-section">
-          <div class="double">
-            <section class="section-expirience" id="experience">
-              <h2 class="section-title">Experience</h2>
-              <p>This is my first project <a href="https://a-reznikov.github.io/rsschool-cv" target="_blank" class="web-link">[CV]</a></p>
-            </section>
-            <section class="section-languages" id="languauges">
-              <h2 class="section-title">Languauges</h2>
-              <p>English: A1 (Test by EPAM)</p>
-            </section>
-          </div>
+        <div class="section column-layout-2">
+          <section class="section-expirience" id="experience">
+            <h2 class="section-title">Experience</h2>
+            <div class="container_projects">
+              <div>Web application
+                <a href="https://a-reznikov-momentum.netlify.app/" target="_blank" class="web-link">Momentum</a>
+              </div>
+              <div>Landing page
+                <a href="https://a-reznikov-plants.netlify.app/" target="_blank" class="web-link">Plans</a>
+              </div>
+              <div>Accordion with HTML and CSS only
+                <a href="https://a-reznikov.github.io/cssBayan/cssBayan/index.html" target="_blank" class="web-link">cssBayan</a>
+              </div>
+            </div>
+          </section>
+          <section class="section-languages" id="languauges">
+            <h2 class="section-title">Languauges</h2>
+            <p>English: A1 (Test by EPAM)</p>
+          </section>
         </div>
-        <!-- <section class="section-right" id="code-example">
-          <h2 class="section-title">Code example</h2>
-          <pre class="pre-text"><code class="code-python">
-a=[str.lower(i) for i in input().split()]
-n=len(a)
-j=0
-d={}
-for j in range(n):
-    c=a.count(a[j])
-    d[a[j]]=c
-for key,value in d.items():
-    print(key,value)</code></pre>
-        </section> -->
       </div>
     </main>
-    <footer class="footer">
-      <div class="container footer-container">
-        <div>2022 
-          <a href="https://github.com/a-reznikov" target="_blank" class="git-footer">GitHub</a>
-        </div>
-        <a href="https://rs.school/js/" target="_blank" class="rss-link"></a>
+    <footer class="container footer">
+      <div class="footer-container">
+        <span>2023</span>
+        <div class="icons contacts_github_footer">
+          <a href="https://github.com/a-reznikov" target="_blank" class="footer-link"></a>
+        </div> 
       </div>
     </footer>
   </body>

@@ -1,11 +1,19 @@
-.footer-container {
+.footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  width: 100%;
   margin: 0 auto;
   padding: 20px;
   color: $color-light;
   background-color: $color-background;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .git-footer {
@@ -13,10 +21,14 @@
   color: $color-light;
 }
 
-.rss-link {
-  width: 121px;
-  height: 45px;
-  background-image: url("../assets/img/icons/rss-white.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
+.footer-link {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+.contacts_github_footer {
+  width: 40px;
+  height: 40px;
+  background-image: url("../assets/img/icons/github_with_title.svg");
 }
