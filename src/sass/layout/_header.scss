@@ -18,11 +18,10 @@
 
 .header__opened {
   height: 0px;
+  background-color: $color-light;
   @extend %transition;
   @include media-tablet {
     height: 420px;
-    background-color: $color-light;
-    transition: background-color 1s;
     padding-bottom: 0;
   }
 }
