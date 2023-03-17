@@ -1,10 +1,20 @@
 
 .nav {
   @include media-tablet {
-    display: flex;
-    flex-direction: column;
+    display: block;
+    position: absolute;
+    z-index: 0;
+    top: -420px;
+    left: 0;
     width: 100%;
+    height: 420px;
+    max-height: 420px;
+    padding-top: 25px;
+    transition: transform 0.5s;
     background-color: $color-background;
+    .nav-list {
+      display: none;
+    }
   }
 }
 
@@ -14,12 +24,9 @@
   align-items: center;
   list-style: none;
   @include media-tablet {
-    align-items: center;
-    padding: 0px;
-    width: 100%;
-    height: 100%;
-    flex-direction: column;
+    font-size: 3.2rem;
   }
+
 }
 
 .nav-link {
@@ -34,4 +41,18 @@
 
 .nav-link:hover {
   color: $color-hover-dark;
+}
+
+.nav__opened {
+  @include media-tablet {
+    transform: translateY(420px);
+    .nav-list {
+      display: block;
+    }
+    .nav-link:hover {
+      font-weight: 700;
+      color: $color-hover-dark;
+      transition: color 0.5s;
+    }
+  }
 }

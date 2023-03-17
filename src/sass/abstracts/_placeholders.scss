@@ -5,3 +5,12 @@
 %font-first {
   font-family: 'Barlow', sans-serif;
 }
+
+%hamburger-line {
+  position: absolute;
+  display: inline-block;
+  background-color: $color-light;
+  height: 2px;
+  width: 40px;
+  transition: transform .5s, opacity .5s, background-color 0.5s;
+}
