@@ -1,0 +1,22 @@
+@import "../../node_modules/normalize.scss/normalize.scss";
+
+@import "abstracts/constants";
+@import "abstracts/mixins";
+@import "abstracts/placeholders";
+
+@import "base/base";
+@import "base/links";
+@import "base/icons";
+@import "base/hamburger";
+
+@import "layout/header";
+@import "layout/main";
+@import "layout/footer";
+@import "layout/layouts";
+
+@import "components/navigation";
+@import "components/contacts";
+@import "components/education";
+@import "components/languages";
+@import "components/expirience";
+@import "components/skills";

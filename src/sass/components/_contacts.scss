@@ -1,0 +1,32 @@
+.section-list {
+  list-style: none;
+  padding-left: 15px;
+  @include media-mobile {
+    padding-left: 0;
+  }
+}
+
+.list_items {
+  display: flex;
+  align-items: center;
+}
+
+.contacts_phone {
+  background-image: url("../assets/img/icons/phone.svg");
+}
+
+.contacts_e-mail {
+  background-image: url("../assets/img/icons/mail.svg");
+}
+
+.contacts_github {
+  background-image: url("../assets/img/icons/github.svg");
+}
+
+.contacts_linkedin {
+  background-image: url("../assets/img/icons/linkedin.svg");
+}
+
+.contacts_discord {
+  background-image: url("../assets/img/icons/discord.svg");
+}

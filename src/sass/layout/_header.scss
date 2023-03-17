@@ -1,0 +1,27 @@
+.header {
+  background-color: $color-background;
+  @include media-tablet {
+    height: 63px;
+  }
+  @extend %transition;
+}
+
+.header-container {
+  @include media-tablet {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 63px;
+    margin: auto 0;
+  }
+}
+
+.header__opened {
+  height: 0px;
+  background-color: $color-light;
+  @extend %transition;
+  @include media-tablet {
+    height: 420px;
+    padding-bottom: 0;
+  }
+}

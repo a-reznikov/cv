@@ -1,0 +1,145 @@
+.main {
+  margin-bottom: auto;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section {
+  padding: 0 20px;
+}
+
+.section-left {
+  flex-basis: 30%;
+  padding: 0 20px;
+  @include media-laptop {
+    flex-basis: 100%;
+  }
+}
+
+.section-right {
+  flex-basis: 70%;
+  @include media-laptop {
+    flex-basis: 100%;
+  }
+}
+
+.section-profile {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  padding: 20px;
+  @include media-laptop {
+    order: 0;
+  }
+  &_avatar {
+    flex-shrink: 0;
+    min-width: 200px;
+    width: 30%
+    
+  }
+  &_title {
+    @include media-laptop {
+      padding-left: 20px;
+    }
+  }
+}
+
+.profile-avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.profile-title {
+  font-variant-caps: small-caps;
+  font-size: 3.6rem;
+}
+
+.section_contacts {
+  @include media-laptop {
+    order: 2;
+    flex-basis: 50%;
+  }
+}
+
+.section_skills {
+  @include media-laptop {
+    order: 1;
+    flex-basis: 50%;
+  }
+}
+
+.section_about {
+  p {
+    text-align: justify;
+    @include media-mobile {
+      text-align: center;
+    }
+  }
+  @include media-laptop {
+    order: 2;
+  }
+}
+
+.section_education {
+  @include media-laptop {
+    order: 3;
+  }
+}
+
+.column-layout-2 {
+  @include media-laptop {
+    order: 4;
+  }
+}
+
+.profile-subtitle {
+  font-variant-caps: small-caps;
+}
+
+.section-title {
+  font-variant-caps: small-caps;
+}
+
+
+.double {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-container {
+  @include media-mobile {
+    justify-content: center;
+  }
+  .section-profile {
+    @include media-mobile {
+      justify-content: center;
+    }
+  }
+  .column-layout-2 {
+    @include media-mobile {
+      flex-direction: column;
+      justify-content: center;
+      .section-expirience {
+        flex-basis: 100%;
+        order: 0;
+      }
+    }
+  }
+  >* {
+    @include media-mobile {
+      flex-basis: 100%;
+      align-self: center;
+      text-align: center;
+    }
+
+  }
+}
