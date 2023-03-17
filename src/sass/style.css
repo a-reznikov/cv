@@ -808,6 +808,11 @@ section {
   background-image: url("../assets/img/icons/discord.svg");
 }
 
+.phone-link {
+  text-decoration: none;
+  color: #000000;
+}
+
 .education {
   font-weight: 600;
 }
