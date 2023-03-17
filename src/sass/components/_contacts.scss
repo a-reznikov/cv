@@ -1,6 +1,9 @@
 .section-list {
   list-style: none;
   padding-left: 15px;
+  @include media-mobile {
+    padding-left: 0;
+  }
 }
 
 .list_items {
