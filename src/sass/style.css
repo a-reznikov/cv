@@ -424,6 +424,10 @@ body {
   padding: 0 20px;
 }
 
+h5 {
+  margin: 1rem 0;
+}
+
 .web-link {
   color: #929191;
   text-decoration: none;
