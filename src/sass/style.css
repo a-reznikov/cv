@@ -837,6 +837,11 @@ section {
   padding-left: 15px;
 }
 
+.web_app {
+  display: flex;
+  flex-direction: column;
+}
+
 .skills_html {
   background-image: url("../assets/img/icons/html.svg");
 }
