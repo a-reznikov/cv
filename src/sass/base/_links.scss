@@ -1,10 +1,10 @@
 .web-link {
-  color: $color-hover-dark;
+  color: $color-link;
   text-decoration: none;  
   transition: color 0.5s;
   font-weight: 700;
-}
-.web-link:hover {
-  color: $color-dark;
-  text-decoration: underline;
+  &:hover {
+    color: $color-hover-dark;
+    text-decoration: underline;
+  }
 }

@@ -29,6 +29,7 @@ section {
 .section-profile {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   flex-basis: 100%;
   padding: 20px;
   @include media-laptop {
@@ -57,8 +58,14 @@ section {
 }
 
 .profile-title {
+  margin: 0;
   font-variant-caps: small-caps;
   font-size: 3.6rem;
+}
+
+.profile-location {
+  margin: 0;
+  font-size: 1.2rem;
 }
 
 .section_contacts {
@@ -78,6 +85,7 @@ section {
 .section_about {
   p {
     text-align: justify;
+    margin: 0;
     @include media-mobile {
       text-align: center;
     }
