@@ -429,14 +429,13 @@ h5 {
 }
 
 .web-link {
-  color: #929191;
+  color: #202020;
   text-decoration: none;
   transition: color 0.5s;
   font-weight: 700;
 }
-
 .web-link:hover {
-  color: #000000;
+  color: #929191;
   text-decoration: underline;
 }
 
@@ -562,6 +561,7 @@ section {
 .section-profile {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   flex-basis: 100%;
   padding: 20px;
 }
@@ -591,8 +591,14 @@ section {
 }
 
 .profile-title {
+  margin: 0;
   font-variant-caps: small-caps;
   font-size: 3.6rem;
+}
+
+.profile-location {
+  margin: 0;
+  font-size: 1.2rem;
 }
 
 @media (max-width: 940px) {
@@ -611,6 +617,7 @@ section {
 
 .section_about p {
   text-align: justify;
+  margin: 0;
 }
 @media (max-width: 580px) {
   .section_about p {
@@ -856,6 +863,10 @@ section {
 
 .skills_ts {
   background-image: url("../assets/img/icons/ts.svg");
+}
+
+.skills_commerce {
+  background-image: url("../assets/img/icons/commerce.png");
 }
 
 .skills_git {
