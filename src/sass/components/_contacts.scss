@@ -4,6 +4,14 @@
   @include media-mobile {
     padding-left: 0;
   }
+  &_skills {
+    @include media-mobile {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-evenly;
+    }
+  }
 }
 
 .list_items {
