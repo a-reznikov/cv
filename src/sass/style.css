@@ -380,7 +380,7 @@ th {
   padding: 0;
 }
 
-.nav-link, .header__opened, .header {
+.nav-link, .contacts_github_footer, .header__opened, .header {
   transition: 0.5s;
 }
 
@@ -425,12 +425,13 @@ body {
 }
 
 h5 {
-  margin: 1rem 0;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 2.2rem 0 0;
 }
 
 .web-link {
   color: #202020;
-  text-decoration: none;
   transition: color 0.5s;
   font-weight: 700;
 }
@@ -583,8 +584,6 @@ section {
 
 .profile-avatar {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -607,11 +606,21 @@ section {
     flex-basis: 50%;
   }
 }
+@media (max-width: 580px) {
+  .section_contacts {
+    order: 1;
+  }
+}
 
 @media (max-width: 940px) {
   .section_skills {
     order: 1;
     flex-basis: 50%;
+  }
+}
+@media (max-width: 580px) {
+  .section_skills {
+    order: 2;
   }
 }
 
@@ -621,7 +630,7 @@ section {
 }
 @media (max-width: 580px) {
   .section_about p {
-    text-align: center;
+    text-align: justify;
   }
 }
 @media (max-width: 940px) {
@@ -719,6 +728,9 @@ section {
   height: 40px;
   background-image: url("../assets/img/icons/github_with_title.svg");
 }
+.contacts_github_footer:hover {
+  opacity: 1;
+}
 
 .column-layout-2 {
   display: flex;
@@ -793,6 +805,14 @@ section {
     padding-left: 0;
   }
 }
+@media (max-width: 580px) {
+  .section-list_skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+  }
+}
 
 .list_items {
   display: flex;
@@ -826,6 +846,7 @@ section {
 
 .education {
   font-weight: 600;
+  margin-top: 2.2rem;
 }
 
 .section-languages {
@@ -842,11 +863,6 @@ section {
 
 .container_projects {
   padding-left: 15px;
-}
-
-.web_app {
-  display: flex;
-  flex-direction: column;
 }
 
 .skills_html {
