@@ -822,6 +822,18 @@ section {
 .contacts_phone {
   background-image: url("../assets/img/icons/phone.svg");
 }
+.contacts_skype {
+  background-image: url("../assets/img/icons/skype.png");
+}
+.contacts_telegram {
+  background-image: url("../assets/img/icons/telegram.svg");
+}
+.contacts_rs-cv {
+  background-image: url("../assets/img/icons/rs-logo.svg");
+}
+.contacts_youtube {
+  background-image: url("../assets/img/icons/youtube.png");
+}
 
 .contacts_e-mail {
   background-image: url("../assets/img/icons/mail.svg");
@@ -865,12 +877,14 @@ section {
   padding-left: 15px;
 }
 
-.skills_html {
-  background-image: url("../assets/img/icons/html.svg");
+.skills_react {
+  background-image: url("../assets/img/icons/react.svg");
 }
-
-.skills_css {
-  background-image: url("../assets/img/icons/css.svg");
+.skills_redux {
+  background-image: url("../assets/img/icons/redux.svg");
+}
+.skills_nextjs {
+  background-image: url("../assets/img/icons/nextjs.svg");
 }
 
 .skills_js {
@@ -879,6 +893,14 @@ section {
 
 .skills_ts {
   background-image: url("../assets/img/icons/ts.svg");
+}
+
+.skills_html {
+  background-image: url("../assets/img/icons/html.svg");
+}
+
+.skills_css {
+  background-image: url("../assets/img/icons/css.svg");
 }
 
 .skills_commerce {
@@ -901,16 +923,16 @@ section {
   background-image: url("../assets/img/icons/codewars.svg");
 }
 
-.skills_vsc {
-  background-image: url("../assets/img/icons/vsc.svg");
-}
-
 .skills_eslint {
   background-image: url("../assets/img/icons/eslint.svg");
 }
 
 .skills_prettier {
   background-image: url("../assets/img/icons/prettier.svg");
+}
+
+.skills_vite {
+  background-image: url("../assets/img/icons/vite.svg");
 }
 
 .skills_jest {

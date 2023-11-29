@@ -19,8 +19,22 @@
   align-items: center;
 }
 
-.contacts_phone {
-  background-image: url("../assets/img/icons/phone.svg");
+.contacts {
+  &_phone {
+    background-image: url("../assets/img/icons/phone.svg");
+  }
+  &_skype {
+    background-image: url("../assets/img/icons/skype.png");
+  }
+  &_telegram {
+    background-image: url("../assets/img/icons/telegram.svg");
+  }
+  &_rs-cv {
+    background-image: url("../assets/img/icons/rs-logo.svg");
+  }
+  &_youtube {
+    background-image: url("../assets/img/icons/youtube.png");
+  }
 }
 
 .contacts_e-mail {
