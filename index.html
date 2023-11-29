@@ -1,243 +1,327 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="src/assets/img/icons/favicon.png">
-    <title>CV Aleksandr Reznikov</title>
-    <link rel="stylesheet" href="src/sass/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <header class="header">
-      <div class="container header-container">
-        <nav class="nav">
-          <ul class="nav-list">
-            <li class="nav-item"><a href="#my-contacts" class="nav-link">My contacts</a></li>
-            <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
-            <li class="nav-item"><a href="#my-stack" class="nav-link">My stack</a></li>
-            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-            <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
-            <li class="nav-item"><a href="#languages" class="nav-link">languages</a></li>
-          </ul>
-        </nav>
-        <div class="hamburger" id="burger">
-          <span class="hamburger__line line__cross"></span>
-          <span class="hamburger__line line__hiden"></span>
-          <span class="hamburger__line line__hiden"></span>
-          <span class="hamburger__line line__cross"></span> 
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="src/assets/img/icons/favicon.png" />
+  <title>CV Aleksandr Reznikov</title>
+  <link rel="stylesheet" href="src/sass/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;1,300&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#my-contacts" class="nav-link">My contacts</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about-me" class="nav-link">About me</a>
+          </li>
+          <li class="nav-item">
+            <a href="#my-stack" class="nav-link">My stack</a>
+          </li>
+          <li class="nav-item">
+            <a href="#education" class="nav-link">Education</a>
+          </li>
+          <li class="nav-item">
+            <a href="#experience" class="nav-link">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a href="#languages" class="nav-link">languages</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="hamburger" id="burger">
+        <span class="hamburger__line line__cross"></span>
+        <span class="hamburger__line line__hiden"></span>
+        <span class="hamburger__line line__hiden"></span>
+        <span class="hamburger__line line__cross"></span>
       </div>
-    </header>
-    <main class="main">
-      <div class="container main-container">
-        <section class="section-left section-profile">
-          <article class="section-profile_avatar">
-            <img src="src/assets/img/photo/photo.jpg" alt="avatar" class="profile-avatar">
-          </article>
-          <article class="section-profile_title">
-            <h1 class="profile-title">Aleksandr Reznikov</h1>
-            <h4 class="profile-location">BELARUS, GOMEL</h4>
-            <h3 class="profile-subtitle">Frontend Developer</h3>
-          </article>
-        </section>
-        <section class="section-left section_contacts" id="my-contacts">
-          <h2 class="section-title">My contacts</h2>
-          <ul class="section-list">
-            <li class="list_items">
-              <div class="icons contacts_phone"></div> 
-              <span class="phone"><a class="phone-link" href="tel:+375445828237">+37544-582-82-37</a></span>
-            </li>
-            <li class="list_items">
-              <div class="icons contacts_e-mail"></div> 
-              <span class="e-mail"><a class="web-link" href="mailto:a.reznnikov@gmail.com">a.reznnikov@gmail.com</a></span>
-            </li>
-            <li class="list_items">
-              <div class="icons contacts_github"></div> 
-              <span class="github"><a href="https://github.com/a-reznikov" target="_blank" class="web-link">a-reznikov</a>
-              </span>
-            </li>
-            <li class="list_items">
-              <div class="icons contacts_linkedin"></div> 
-              <span class="linkedin"><a href="https://www.linkedin.com/in/aleksandr-reznikov/" target="_blank" class="web-link">aleksandr-reznikov</a>
-              </span>
-            </li>
-            <li class="list_items">
-              <div class="icons contacts_discord"></div> 
-              <span class="discord">a-reznikov#0773</span>
-            </li>
-          </ul>
-        </section>
-        <section class="section-right section_about" id="about-me">
-          <h2 class="section-title">About me</h2>
-          <p>I started my journey as a frontend developer since December 2022 learning JavaScript and completed two RS School courses in this direction with top-3 and top-5 results.</p>
-            <p>After graduating from RS School, I have advanced knowledge and experience using the following technologies:</p>
-            <p>JavaScript (ES6), TypeScript, Commercetools, SASS, BEM, Webpack, Eslint.</p>
-            <p>Completed a course on React and Redux on the Udemy and am currently continuing to learn React on the RS School.</p>
-            <p>I love reading books, running, and I also love developing apps and am looking for a job offer.</p>
-        </section>
-        <section class="section-left section_skills" id="my-stack">
-          <h2 class="section-title">My stack</h2>
-          <ul class="section-list section-list_skills">
-            <li class="list_items skills">
-              <div class="icons skills_html"></div> 
-              <span class="title_html">HTML5</span>
-            </li>
-            <li class="list_items skills">
-              <div class="icons skills_css"></div> 
-              <span class="title_css">CSS, SASS</span>
-            </li>
-            <li class="list_items skills">
-              <div class="icons skills_js"></div> 
-              <span class="title_js">JavaScript</span>
-            </li>
-            <li class="list_items skills">
-              <div class="icons skills_ts"></div> 
-              <span class="title_ts">TypeScript</span>
-            </li>
-            <li class="list_items skills">
-              <div class="icons skills_commerce"></div> 
-              <span class="title_ts">Commercetools</span>
-            </li>
-            <li class="list_items skills">
-              <div class="icons skills_git"></div> 
-              <span class="title_git">Git, GitHub</span>
-            </li>
-            <li class="list_items skills">
-              <div class="icons skills_figma"></div> 
-              <span class="title_figma">Figma</span>
-            </li>
-            <li class="list_items skills">
-              <div class="icons skills_webpack"></div> 
-              <span class="title_webpack">Webpack</span>
-            </li>
-            <li class="list_items skills">
-              <div class="icons skills_codewars"></div> 
-              <span class="title_codewars">CodeWars</span>
-            </li>
-            <li class="list_items skills">
-              <div class="icons skills_vsc"></div> 
-              <span class="title_vsc">Visual Studio Code</span>
-            </li>
-            <li class="list_items skills">
-              <div class="icons skills_eslint"></div> 
-              <span class="title_eslint">Eslint</span>
-            </li>
-            <li class="list_items skills">
-              <div class="icons skills_prettier"></div> 
-              <span class="title_prettier">Prettier</span>
-            </li>
-            <li class="list_items skills">
-              <div class="icons skills_jest"></div> 
-              <span class="title_jest">Jest</span>
-            </li>
-            <li class="list_items skills">
-              <div class="icons skills_husky"></div> 
-              <span class="title_husky">Husky</span>
-            </li>
-          </ul>
-        </section>
-        <section class="section-right section_education" id="education">
-          <h2 class="section-title">Education</h2>
-          <ul class="section-list">
-            <li class="section-item education">Belarusian-Russian university:</li>
-            <li>
-              <ul class="section-list">
-                <li class="section-item bru">2013 Technical operation of vehicles</li>
-                <li class="section-item bru">2015 Master's Degree in Technical Sciences </li>
-              </ul>
-            </li>
-            <li class="section-item education">Courses:</li>
-            <li>
-              <ul class="section-list">
-                <li class="section-item">
-                  <span class="place">RS School:</span>
-                  <ul class="section-list">
-                    <li class="section-item">
-                      <span class="courses">2023 JavaScript/Front-end React (in progress)</span>
-                    </li>
-                    <li class="section-item">
-                      <span class="courses">2023 JavaScript/Front-end STAGE 1-2</span>
-                      <a href="https://app.rs.school/certificate/bb87fl63" target="_blank" class="web-link">certificate</a>
-                    </li>
-                    <li class="section-item">
-                      <span class="courses">2023 JavaScript/Front STAGE 0 </span>
-                      <a href="https://app.rs.school/certificate/rea276c6" target="_blank" class="web-link">certificate</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="section-item courses">EPAM:</li>
-                <li>
-                  <ul class="section-list">
-                    <li class="section-item">
-                      <span class="courses">2022 Version Control with Git</span>
-                    </li>
-                    <li class="section-item">
-                      <span class="courses">2022 Computer Science Basics</span>
-                    </li>
-                  </ul>
-                </li>
-                <li class="section-item courses">Bioinformatics institute:</li>
-                <li>
-                  <ul class="section-list">
-                    <li class="section-item">
-                      <span class="courses">2022 Python: basics and applications
-                        <a href="https://stepik.org/cert/1500134" target="_blank" class="web-link">certificate</a>
-                      </span>
-                    </li>
-                    <li class="section-item">
-                      <span class="courses">2021 Python programming
-                        <a href="https://stepik.org/cert/1034363" target="_blank" class="web-link">certificate</a>
-                      </span>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </section>
-        <div class="section column-layout-2">
-          <section class="section-expirience" id="experience">
-            <h2 class="section-title">Experience</h2>
-            <div class="container_projects">
-              <h5>TypeScript:</h5>
-              <span class="web_app">SPA:
-                <a href="https://e-commerce-haq.netlify.app/" target="_blank" class="web-link">E-commerce</a><span>,</span>
-                <a href="https://a-reznikov-css-selectors.netlify.app/" target="_blank" class="web-link">CSS Selectors</a><span>.</span>
-              </span>
-              <h5>JavaScript:</h5>
-              <div class="web_app">Web applications:
-                <a href="https://a-reznikov-minesweeper.netlify.app/" target="_blank" class="web-link">Minesweeper Game</a><span>,</span>
-                <a href="https://a-reznikov-momentum.netlify.app/" target="_blank" class="web-link">Momentum</a><span>,</span>
-                <a href="https://a-reznikov.github.io/virtual-keyboard/" target="_blank" class="web-link">Virtual keyboard</a><span>.</span>
-              </div>
-              <div>Multi-page website:
-                <a href="https://rolling-scopes-school.github.io/a-reznikov-JSFE2023Q1/shelter/pages/main/" target="_blank" class="web-link">Cozy House</a>
-              </div>
-              <div>Landing page:
-                <a href="https://a-reznikov-plants.netlify.app/" target="_blank" class="web-link">Plants</a>
-              </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container main-container">
+      <section class="section-left section-profile">
+        <article class="section-profile_avatar">
+          <img src="src/assets/img/photo/photo.jpg" alt="avatar" class="profile-avatar" />
+        </article>
+        <article class="section-profile_title">
+          <h1 class="profile-title">Aleksandr Reznikov</h1>
+          <h4 class="profile-location">BELARUS, GOMEL</h4>
+          <h3 class="profile-subtitle">Frontend React Developer</h3>
+        </article>
+      </section>
+      <section class="section-left section_contacts" id="my-contacts">
+        <h2 class="section-title">My contacts</h2>
+        <ul class="section-list">
+          <li class="list_items">
+            <div class="icons contacts_phone"></div>
+            <span class="phone"><a class="phone-link" href="tel:+375445828237">+37544-582-82-37</a></span>
+          </li>
+          <li class="list_items">
+            <div class="icons contacts_skype"></div>
+            <span class="skype">live:.cid.dcb1bb942bf0921c</span>
+          </li>
+           <li class="list_items">
+            <div class="icons contacts_telegram"></div>
+            <span class="telegram"><a href="https://t.me/a_reznnikov" target="_blank" class="web-link">@a_reznnikov</a></span>
+          </li>
+          <li class="list_items">
+            <div class="icons contacts_e-mail"></div>
+            <span class="e-mail"><a class="web-link"
+                href="mailto:a.reznnikov@gmail.com">a.reznnikov@gmail.com</a></span>
+          </li>
+          <li class="list_items">
+            <div class="icons contacts_github"></div>
+            <span class="github"><a href="https://github.com/a-reznikov" target="_blank" class="web-link">a-reznikov</a>
+            </span>
+          </li>
+          <li class="list_items">
+            <div class="icons contacts_linkedin"></div>
+            <span class="linkedin"><a href="https://www.linkedin.com/in/aleksandr-reznikov/" target="_blank"
+                class="web-link">aleksandr-reznikov</a>
+            </span>
+          </li>
+          <li class="list_items">
+            <div class="icons contacts_discord"></div>
+            <span class="discord"><a href="https://discord.com/users/1036994167852773406" target="_blank" class="web-link">a-reznikov#0773</a></span>
+          </li>
+          <li class="list_items">
+            <div class="icons contacts_rs-cv"></div>
+            <span class="rs-cv"><a href="https://app.rs.school/cv/4bf18997-7f35-4f52-9306-c95e810d90a6" target="_blank" class="web-link">profile at RS</a></span>
+          </li>
+          <li class="list_items">
+            <div class="icons contacts_youtube"></div>
+            <span class="youtube"><a href="https://www.youtube.com/watch?v=XIRew-6S4bE" target="_blank" class="web-link">self-introduction</a></span>
+          </li>
+        </ul>
+      </section>
+      <section class="section-right section_about" id="about-me">
+        <h2 class="section-title">About me</h2>
+        <p>
+          I started my journey as a frontend developer since December 2022
+          learning JavaScript and completed two RS School courses in this
+          direction with top results.
+        </p>
+        <p>
+          After graduating from RS School, I have advanced knowledge and
+          experience using the following technologies:
+        </p>
+        <p>
+          JavaScript (ES6), TypeScript, React, Redux, Next.js, Commercetools, HTML5, CSS3, SASS, BEM, Webpack, Vite,
+          Jest
+          and etc.
+        </p>
+        <p>
+          Completed a course on React and Redux on the Udemy and am currently
+          continuing to learn React on the RS School.
+        </p>
+        <p>
+          I love reading books, running, and I also love developing apps and
+          am looking for a job offer.
+        </p>
+      </section>
+      <section class="section-left section_skills" id="my-stack">
+        <h2 class="section-title">My skills</h2>
+        <ul class="section-list section-list_skills">
+          <li class="list_items skills">
+            <div class="icons skills_js"></div>
+            <span class="title_js">JavaScript</span>
+          </li>
+          <li class="list_items skills">
+            <div class="icons skills_ts"></div>
+            <span class="title_ts">TypeScript</span>
+          </li>
+          <li class="list_items skills">
+            <div class="icons skills_react"></div>
+            <span class="title_ts">React</span>
+          </li>
+          <li class="list_items skills">
+            <div class="icons skills_redux"></div>
+            <span class="title_ts">Redux</span>
+          </li>
+          <li class="list_items skills">
+            <div class="icons skills_nextjs"></div>
+            <span class="title_ts">Next.js</span>
+          </li>
+          <li class="list_items skills">
+            <div class="icons skills_html"></div>
+            <span class="title_html">HTML5</span>
+          </li>
+          <li class="list_items skills">
+            <div class="icons skills_css"></div>
+            <span class="title_css">CSS, SASS</span>
+          </li>
+          <li class="list_items skills">
+            <div class="icons skills_commerce"></div>
+            <span class="title_ts">Commercetools</span>
+          </li>
+          <li class="list_items skills">
+            <div class="icons skills_git"></div>
+            <span class="title_git">Git, GitHub</span>
+          </li>
+          <li class="list_items skills">
+            <div class="icons skills_figma"></div>
+            <span class="title_figma">Figma</span>
+          </li>
+          <li class="list_items skills">
+            <div class="icons skills_codewars"></div>
+            <span class="title_codewars">CodeWars <a href="https://www.codewars.com/users/rsschool_b0b7bb1a941da8c2" target="_blank" class="web-link">4 kyu</a></span>
+          </li>
+          <li class="list_items skills">
+            <div class="icons skills_eslint"></div>
+            <span class="title_eslint">Eslint</span>
+          </li>
+          <li class="list_items skills">
+            <div class="icons skills_prettier"></div>
+            <span class="title_prettier">Prettier</span>
+          </li>
+          <li class="list_items skills">
+            <div class="icons skills_webpack"></div>
+            <span class="title_webpack">Webpack</span>
+          </li>
+          <li class="list_items skills">
+            <div class="icons skills_vite"></div>
+            <span class="title_vsc">Vite Vitest</span>
+          </li>
+          <li class="list_items skills">
+            <div class="icons skills_jest"></div>
+            <span class="title_jest">Jest</span>
+          </li>
+          <li class="list_items skills">
+            <div class="icons skills_husky"></div>
+            <span class="title_husky">Husky</span>
+          </li>
+        </ul>
+      </section>
+      <section class="section-right section_education" id="education">
+        <h2 class="section-title">Education</h2>
+        <ul class="section-list">
+          <li class="section-item education">
+            Belarusian-Russian university:
+          </li>
+          <li>
+            <ul class="section-list">
+              <li class="section-item bru">
+                2013 Technical operation of vehicles
+              </li>
+              <li class="section-item bru">
+                2015 Master's Degree in Technical Sciences
+              </li>
+            </ul>
+          </li>
+          <li class="section-item education">Courses:</li>
+          <li>
+            <ul class="section-list">
+              <li class="section-item">
+                <span class="place">RS School:</span>
+                <ul class="section-list">
+                  <li class="section-item">
+                    <span class="courses">2023 JavaScript/Front-end React (in progress)</span>
+                  </li>
+                  <li class="section-item">
+                    <span class="courses">2023 JavaScript/Front-end STAGE 1-2</span>
+                    <a href="https://app.rs.school/certificate/bb87fl63" target="_blank"
+                      class="web-link">certificate</a>
+                  </li>
+                  <li class="section-item">
+                    <span class="courses">2023 JavaScript/Front STAGE 0
+                    </span>
+                    <a href="https://app.rs.school/certificate/rea276c6" target="_blank"
+                      class="web-link">certificate</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="section-item courses">EPAM:</li>
+              <li>
+                <ul class="section-list">
+                  <li class="section-item">
+                    <span class="courses">2022 Version Control with Git</span>
+                  </li>
+                  <li class="section-item">
+                    <span class="courses">2022 Computer Science Basics</span>
+                  </li>
+                </ul>
+              </li>
+              <li class="section-item courses">Bioinformatics institute:</li>
+              <li>
+                <ul class="section-list">
+                  <li class="section-item">
+                    <span class="courses">2022 Python: basics and applications
+                      <a href="https://stepik.org/cert/1500134" target="_blank" class="web-link">certificate</a>
+                    </span>
+                  </li>
+                  <li class="section-item">
+                    <span class="courses">2021 Python programming
+                      <a href="https://stepik.org/cert/1034363" target="_blank" class="web-link">certificate</a>
+                    </span>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <div class="section column-layout-2">
+        <section class="section-expirience" id="experience">
+          <h2 class="section-title">Experience</h2>
+          <div class="container_projects">
+            <h5>TypeScript:</h5>
+            <span class="web_app">SPA:
+              <a href="https://e-commerce-haq.netlify.app/" target="_blank"
+                class="web-link">E-commerce</a><span>,</span>
+              <a href="https://a-reznikov-css-selectors.netlify.app/" target="_blank" class="web-link">CSS
+                Selectors</a><span>.</span>
+            </span>
+            <h5>JavaScript:</h5>
+            <div class="web_app">
+              Web applications:
+              <a href="https://a-reznikov-minesweeper.netlify.app/" target="_blank" class="web-link">Minesweeper
+                Game</a><span>,</span>
+              <a href="https://a-reznikov-momentum.netlify.app/" target="_blank"
+                class="web-link">Momentum</a><span>,</span>
+              <a href="https://a-reznikov.github.io/virtual-keyboard/" target="_blank" class="web-link">Virtual
+                keyboard</a><span>.</span>
             </div>
-          </section>
-          <section class="section-languages" id="languages">
-            <h2 class="section-title">Languages</h2>
-            <div>English: A2</div>
-            <div>Belarusian: Native</div>
-            <div>Russian: Native</div>
-          </section>
-        </div>
+            <div>
+              Multi-page website:
+              <a href="https://rolling-scopes-school.github.io/a-reznikov-JSFE2023Q1/shelter/pages/main/"
+                target="_blank" class="web-link">Cozy House</a>
+            </div>
+            <div>
+              Landing page:
+              <a href="https://a-reznikov-plants.netlify.app/" target="_blank" class="web-link">Plants</a>
+            </div>
+          </div>
+        </section>
+        <section class="section-languages" id="languages">
+          <h2 class="section-title">Languages</h2>
+          <div>English: B1
+            <a href="https://www.efset.org/cert/z5RB51" target="_blank" class="web-link">certificate
+            </a>
+          </div>
+          <div>Belarusian: Native</div>
+          <div>Russian: Native</div>
+        </section>
       </div>
-    </main>
-    <footer class="container footer">
-      <div class="footer-container">
-        <span>2023</span>
-        <div class="icons contacts_github_footer">
-          <a href="https://github.com/a-reznikov" target="_blank" class="footer-link"></a>
-        </div> 
+    </div>
+  </main>
+  <footer class="container footer">
+    <div class="footer-container">
+      <span>2023</span>
+      <div class="icons contacts_github_footer">
+        <a href="https://github.com/a-reznikov" target="_blank" class="footer-link"></a>
       </div>
-    </footer>
-    <script src="src/index.js"></script>
-  </body>
+    </div>
+  </footer>
+  <script src="src/index.js"></script>
+</body>
+
 </html>

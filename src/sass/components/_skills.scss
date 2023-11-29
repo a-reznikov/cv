@@ -1,10 +1,13 @@
-
-.skills_html {
-  background-image: url("../assets/img/icons/html.svg");
-}
-
-.skills_css {
-  background-image: url("../assets/img/icons/css.svg");
+.skills{
+  &_react {
+    background-image: url("../assets/img/icons/react.svg");
+  }
+  &_redux {
+    background-image: url("../assets/img/icons/redux.svg");
+  }
+  &_nextjs {
+    background-image: url("../assets/img/icons/nextjs.svg");
+  }
 }
 
 .skills_js {
@@ -13,6 +16,14 @@
 
 .skills_ts {
   background-image: url("../assets/img/icons/ts.svg");
+}
+
+.skills_html {
+  background-image: url("../assets/img/icons/html.svg");
+}
+
+.skills_css {
+  background-image: url("../assets/img/icons/css.svg");
 }
 
 .skills_commerce {
@@ -35,16 +46,16 @@
   background-image: url("../assets/img/icons/codewars.svg");
 }
 
-.skills_vsc {
-  background-image: url("../assets/img/icons/vsc.svg");
-}
-
 .skills_eslint {
   background-image: url("../assets/img/icons/eslint.svg");
 }
 
 .skills_prettier {
   background-image: url("../assets/img/icons/prettier.svg");
+}
+
+.skills_vite{
+  background-image: url("../assets/img/icons/vite.svg");
 }
 
 .skills_jest {
