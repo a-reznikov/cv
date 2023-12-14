@@ -436,7 +436,7 @@ h5 {
   font-weight: 700;
 }
 .web-link:hover {
-  color: #929191;
+  color: #de2e2f;
   text-decoration: underline;
 }
 
@@ -498,7 +498,7 @@ h5 {
 }
 
 .header {
-  background-color: #2B2C2B;
+  background-color: hsl(120, 1%, 17%);
 }
 @media (max-width: 768px) {
   .header {
@@ -702,7 +702,7 @@ section {
   margin: 0 auto;
   padding: 20px;
   color: #FFFFFF;
-  background-color: #2B2C2B;
+  background-color: hsl(120, 1%, 17%);
 }
 
 .footer-container {
@@ -750,7 +750,7 @@ section {
     max-height: 420px;
     padding-top: 25px;
     transition: transform 0.5s;
-    background-color: #2B2C2B;
+    background-color: hsl(120, 1%, 17%);
   }
   .nav .nav-list {
     display: none;
@@ -779,7 +779,7 @@ section {
 }
 
 .nav-link:hover {
-  color: #929191;
+  color: #de2e2f;
 }
 
 @media (max-width: 768px) {
@@ -791,7 +791,7 @@ section {
   }
   .nav__opened .nav-link:hover {
     font-weight: 700;
-    color: #929191;
+    color: #de2e2f;
     transition: color 0.5s;
   }
 }
