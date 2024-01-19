@@ -886,6 +886,9 @@ section {
 .skills_nextjs {
   background-image: url("../assets/img/icons/nextjs.svg");
 }
+.skills_graphql {
+  background-image: url("../assets/img/icons/graphql.svg");
+}
 
 .skills_js {
   background-image: url("../assets/img/icons/js.svg");
